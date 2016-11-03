@@ -2,7 +2,6 @@
 
 var React = require('react');
 var AuthorApi = require('../../api/authorApi');
-var DatePicker = require('../date/datePicker');
 
 var AuthorList = React.createClass({
 	propTypes: {
