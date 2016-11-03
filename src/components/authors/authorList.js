@@ -2,6 +2,7 @@
 
 var React = require('react');
 var AuthorApi = require('../../api/authorApi');
+var DatePicker = require('../date/datePicker');
 
 var AuthorList = React.createClass({
 	propTypes: {
@@ -29,6 +30,7 @@ var AuthorList = React.createClass({
 						{this.props.authors.map(createAuthorRow, this)}
 					</tbody>
 				</table>
+				<DatePicker />
 			</div>
 		);
 	}
